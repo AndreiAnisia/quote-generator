@@ -33,6 +33,10 @@ async function getQuote() {
    }
 }
 
+const newFeature = function () {
+   console.log('Welcome to the application');
+};
+
 //Tweet quote
 function tweetQuote() {
    const quotet = quote.innerText;
@@ -47,3 +51,4 @@ tweet.addEventListener('click', tweetQuote);
 
 //Load
 getQuote();
+newFeature();
