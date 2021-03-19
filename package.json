@@ -1,0 +1,19 @@
+{
+   "name": "quotegenerator",
+   "version": "1.0.0",
+   "description": "",
+   "default": "script.js",
+   "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --dist-dir ./dist"
+   },
+   "author": "Andrei Anisia",
+   "license": "ISC",
+   "devDependencies": {
+      "parcel": "^2.0.0-beta.2"
+   },
+   "dependencies": {
+      "core-js": "^3.9.1",
+      "regenerator-runtime": "^0.13.7"
+   }
+}
